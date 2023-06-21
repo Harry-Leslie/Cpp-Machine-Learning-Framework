@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.35.32215:TargetPlatformVersion=10.0.22000.0:
 Debug|x64|C:\Cpp-Machine-Learning-Framework\src\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.36.32532:TargetPlatformVersion=10.0.22000.0:
+Debug|x64|C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\|
+>>>>>>> 6e2f23f2d46f04cea14249a60c8da79ffc51619a

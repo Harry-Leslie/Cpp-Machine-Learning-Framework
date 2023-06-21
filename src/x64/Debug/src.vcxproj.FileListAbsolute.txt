@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 C:\Cpp-Machine-Learning-Framework\src\x64\Debug\src.exe
+=======
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\x64\Debug\src.exe
+>>>>>>> 6e2f23f2d46f04cea14249a60c8da79ffc51619a
