@@ -21,15 +21,15 @@
     <ClCompile Include="src.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mean.cpp">
-      <Filter>Source Files\util</Filter>
-    </ClCompile>
-    <ClCompile Include="sum.cpp">
-      <Filter>Source Files\util</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="vector_op.h">
+    <ClInclude Include="slr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
