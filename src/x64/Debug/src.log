@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 ﻿  mean.cpp
+C:\Cpp-Machine-Learning-Framework\src\mean.cpp(8,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  src.cpp
+  Generating Code...
   src.vcxproj -> C:\Cpp-Machine-Learning-Framework\src\x64\Debug\src.exe
-=======
-﻿  src.cpp
-  src.vcxproj -> C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\x64\Debug\src.exe
->>>>>>> 6e2f23f2d46f04cea14249a60c8da79ffc51619a

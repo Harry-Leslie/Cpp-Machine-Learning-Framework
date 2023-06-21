@@ -1,3 +1,6 @@
 #pragma once
-float mean(float* arr);
-float sum(float* arr);
+#include <iostream>
+#include <vector>
+
+double mean(std::vector<double> arr);
+float sum(std::vector<double> arr);

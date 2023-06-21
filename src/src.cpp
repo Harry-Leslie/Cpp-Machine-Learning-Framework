@@ -4,7 +4,7 @@
 
 int main()
 {
-    float arr[] = { 3, 4, 5, 6, 9 };
+    std::vector<double> arr = { 1,2,3,4,5 };
     std::cout << "Hello World!\n";
     std::cout << mean(arr);
 }

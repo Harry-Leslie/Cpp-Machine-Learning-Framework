@@ -1,7 +1,14 @@
 #include "vector_op.h"
 
-float mean(float arr[]) {
-	float length = sizeof(arr) / sizeof(arr[0]); // tried both sizeof(float) and this
-	// return sum(arr) / length
-	return length;
+double mean(std::vector<double> arr) {
+	// divide by 0 is undefined
+	if (arr.size() <= 0) { 
+		return 0;
+	}
+	
+	double sum = 0;
+	for (auto i : arr) {
+		sum += i;
+	}
+	return sum / arr.size();
 }
