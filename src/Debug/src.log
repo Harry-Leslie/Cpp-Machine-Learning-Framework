@@ -1,8 +1,14 @@
 ﻿  src.cpp
-C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(20,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(47,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(54,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(62,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(69,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(75,21): warning C4018: '<': signed/unsigned mismatch
-  src.vcxproj -> C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Debug\src.exe
+C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(20,21): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(54,21): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(62,21): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(69,21): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(75,21): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\Matrix.h(82,12): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\Matrix.h(84,22): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\Matrix.h(88,13): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\Matrix.h(90,23): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\Matrix.h(96,23): warning C4018: '<': signed/unsigned mismatch
+C:\Cpp-Machine-Learning-Framework\src\Matrix.h(104,24): warning C4018: '<': signed/unsigned mismatch
+  src.vcxproj -> C:\Cpp-Machine-Learning-Framework\src\Debug\src.exe

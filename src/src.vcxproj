@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
     <ClInclude Include="libraries.h" />
+    <ClInclude Include="Matrix.h" />
     <ClInclude Include="slr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

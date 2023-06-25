@@ -1,1 +1,2 @@
 C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Debug\src.exe
+C:\Cpp-Machine-Learning-Framework\src\Debug\src.exe
