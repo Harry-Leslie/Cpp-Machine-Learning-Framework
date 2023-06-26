@@ -80,7 +80,6 @@ public:
 	Matrix copy() {
 		Matrix m1(matrix);
 		return m1;
-
 	}
 
 	void removedScaledVector() {
@@ -120,6 +119,52 @@ public:
 		row = matrix.size();
 	}
 
+	bool gdDecider() { // this method decides whether to use gradient descent or not
+		int zero = 0;
+		for (int i = 0; i < getRows(); i++) {
+			for (int j = 0; j < getCols(); j++) {
+				if (matrix[i][j] == 0) {
+					zero++;
+				}
+				else {
+					zero--;
+				}
+			}
+		}
+		if (zero > 0) {
+			return true;
+		}
+
+		removedScaledVector();
+
+		Matrix transpose_matrix = copy();
+		transpose_matrix.transpose();
+
+		multiply(transpose_matrix);
+
+		inverse();
+
+		//make decision
+	}
+
+	void inverse() {
+		m init (getCols(), vector<double>(getRows(), 0));
+		Matrix identity (init);
+
+		for (int i = 0; i < getRows(); i++) {
+			(*identity.getMatrixPtr())[i][i] = (i == i) ? 1 : 0;
+		}
+
+		identity.printMatrix();
+
+
+		//row swap
+
+		//scaling
+
+		//elimination
+	}
+
 	int getRows() {
 		return row;
 	}
@@ -130,6 +175,10 @@ public:
 
 	m getMatrix() {
 		return matrix;
+	}
+
+	m* getMatrixPtr() {
+		return &matrix;
 	}
 
 };

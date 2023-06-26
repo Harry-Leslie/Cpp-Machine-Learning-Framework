@@ -1,14 +1,15 @@
 ﻿  src.cpp
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(20,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(47,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(54,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(62,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(69,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(75,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.h(88,12): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.h(90,22): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.h(94,13): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.h(96,23): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.h(102,23): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.h(110,24): warning C4018: '<': signed/unsigned mismatch
-  src.vcxproj -> C:\Cpp-Machine-Learning-Framework\src\Debug\src.exe
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(20,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(54,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(62,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(69,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.h(75,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(87,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(89,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(93,13): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(95,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(101,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(109,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.h(148): warning C4715: 'Matrix::gdDecider': not all control paths return a value
+  src.vcxproj -> C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Debug\src.exe
