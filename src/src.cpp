@@ -12,7 +12,7 @@ int main() {
     m x = {
         {1,2,1,44,12}, 
         {1,2,2,88,24}, 
-        {1,2,3,132,33} 
+        {1,2,3,132,33}
     };
     m y = { 
         {0,0,8}, 
@@ -21,8 +21,12 @@ int main() {
 
 
     Matrix m1(x);
-    Matrix m2(y);
     m1.removedScaledVector();
+    Matrix m2 = m1.copy();
+    m1.transpose();
+    m1.printMatrix();
+    m2.printMatrix();
+    m1.multiply(m2);
     m1.printMatrix();
 
     return 0;

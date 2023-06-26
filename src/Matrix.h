@@ -77,6 +77,48 @@ public:
 		matrix = transposed;
 	}
 
+	Matrix copy() {
+		Matrix m1(matrix);
+		return m1;
+
+	}
+
+	void removedScaledVector() {
+		int j = 0;
+		while (j < matrix[0].size()) {
+			vector<double> v1 = {};
+			for (int i = 0; i < matrix.size(); i++) {
+				v1.push_back(matrix[i][j]);
+			}
+			int a = j + 1;
+			while (a < matrix[0].size()) {
+				vector<double> v2 = {};
+				for (int i = 0; i < matrix.size(); i++) {
+					v2.push_back(matrix[i][a]);
+				}
+
+				bool parallel = true;
+				double scale_factor = v1[0] / v2[0]; // Edge Case 0 if both are 0 then parallel 
+				for (int k = 1; k < matrix.size(); k++) {
+					if (scale_factor != v1[k] / v2[k]) {
+						parallel = false;
+						break;
+					}
+				}
+
+				if (parallel) {
+					for (int k = 0; k < matrix.size(); k++) {
+						matrix[k].erase(matrix[k].begin() + a);
+					}
+					a--;
+				}
+				a++;
+			}
+			j++;
+		}
+		col = matrix[0].size();
+		row = matrix.size();
+	}
 
 	int getRows() {
 		return row;
