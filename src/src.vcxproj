@@ -127,13 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="multiple_linear_regression.cpp" />
+    <ClCompile Include="multiple_linear_regression.h" />
     <ClCompile Include="src.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
     <ClInclude Include="libraries.h" />
     <ClInclude Include="Matrix.h" />
-    <ClInclude Include="slr.h" />
+    <ClInclude Include="single_linear_regression.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

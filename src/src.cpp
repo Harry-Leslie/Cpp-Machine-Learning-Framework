@@ -1,33 +1,26 @@
 # include "libraries.h"
 # include "ArrayList.h"
-# include "slr.h"
+# include "single_linear_regression.h"
+#include "multiple_linear_regression.h"
 # include "Matrix.h"
 
-typedef vector<vector<double>> m;
+typedef vector<vector<long double>> m;
 
 int main() {
     // Enable memory leak detection at program exit
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
     m x = {
-        {1,2,1,44,12}, 
-        {1,2,2,88,24}, 
-        {1,2,3,132,33}
+    {0, 0},
+    {1, 1},
+    {2, 2},
     };
-    m y = { 
-        {0,0,8}, 
-        {0,0,0}
-    };
+    m y = { {0}, {1}, {2}, };
 
 
     Matrix m1(x);
-    m1.removedScaledVector();
-    Matrix m2 = m1.copy();
-    m1.transpose();
-    m1.printMatrix();
-    m2.printMatrix();
-    m1.multiply(m2);
-    m1.printMatrix();
 
+    multiple_linear_regressor mlr(x, y);
+    mlr.ridge_train(0.000000000000005);
     return 0;
 }
