@@ -38,4 +38,8 @@ public:
 	void multiple_by_constant(long double v);
 
 	Matrix get_idenity();
+
+
+
+
 };

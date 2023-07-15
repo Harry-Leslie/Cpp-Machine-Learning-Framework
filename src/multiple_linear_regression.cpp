@@ -1,5 +1,4 @@
 #include "multiple_linear_regression.h"
-
 multiple_linear_regressor::multiple_linear_regressor(m X, m y) {
 	this->X = X;
 	this->y = y;
