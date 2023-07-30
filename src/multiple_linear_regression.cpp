@@ -58,7 +58,7 @@ void multiple_linear_regressor::ridge_train(long double alpha) {
 
 	Matrix ridgev = X_T.get_idenity();
 	ridgev.multiple_by_constant(alpha);
-	X_T.subtract(ridgev);
+	X_T.addition(ridgev);
 
 	X_T.inverse_matrix();
 

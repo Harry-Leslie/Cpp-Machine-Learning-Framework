@@ -1,22 +1,8 @@
-﻿  Matrix.cpp
-C:\Cpp-Machine-Learning-Framework\src\Matrix.cpp(82,11): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.cpp(84,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.cpp(88,12): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.cpp(90,22): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.cpp(96,22): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\Matrix.cpp(104,23): warning C4018: '<': signed/unsigned mismatch
-  multiple_linear_regression.cpp
-C:\Cpp-Machine-Learning-Framework\src\multiple_linear_regression.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\multiple_linear_regression.cpp(10,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\multiple_linear_regression.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\multiple_linear_regression.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
-  multiple_linear_regression.h
-  src.cpp
+﻿  src.cpp
 C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(20,21): warning C4018: '<': signed/unsigned mismatch
 C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(47,21): warning C4018: '<': signed/unsigned mismatch
 C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(54,21): warning C4018: '<': signed/unsigned mismatch
 C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(62,21): warning C4018: '<': signed/unsigned mismatch
 C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(69,21): warning C4018: '<': signed/unsigned mismatch
 C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(75,21): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
   src.vcxproj -> C:\Cpp-Machine-Learning-Framework\src\Debug\src.exe
