@@ -53,9 +53,9 @@ void Matrix::subtract(Matrix v) {
 void Matrix::print_matrix() {
 	for (int i = 0; i < get_rows(); i++) {
 		for (int j = 0; j < get_cols(); j++) {
-			cout << matrix[i][j] << " ";
+			printf("%lf ", matrix[i][j]);
 		}
-		cout << endl;
+		printf("\n");
 	}
 }
 
@@ -204,5 +204,3 @@ void Matrix::multiple_by_constant(long double v) {
 		}
 	}
 }
-
-

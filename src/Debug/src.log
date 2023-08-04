@@ -1,8 +1,23 @@
-﻿  src.cpp
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(20,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(47,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(54,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(62,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(69,21): warning C4018: '<': signed/unsigned mismatch
-C:\Cpp-Machine-Learning-Framework\src\ArrayList.h(75,21): warning C4018: '<': signed/unsigned mismatch
-  src.vcxproj -> C:\Cpp-Machine-Learning-Framework\src\Debug\src.exe
+﻿  ArrayList.cpp
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.cpp(43,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.cpp(49,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.cpp(56,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.cpp(62,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\ArrayList.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
+  Matrix.cpp
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.cpp(82,11): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.cpp(84,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.cpp(88,12): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.cpp(90,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.cpp(96,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Matrix.cpp(104,23): warning C4018: '<': signed/unsigned mismatch
+  MultipleLinearRegression.cpp
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\MultipleLinearRegression.cpp(10,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\MultipleLinearRegression.cpp(11,27): warning C4018: '<': signed/unsigned mismatch
+  MultipleLinearRegression.h
+  SimpleLinearRegression.cpp
+  src.cpp
+  Generating Code...
+Debug\MultipleLinearRegression.obj : warning LNK4042: object specified more than once; extras ignored
+  src.vcxproj -> C:\Users\marco\source\repos\Cpp-Machine-Learning-Framework\src\Debug\src.exe

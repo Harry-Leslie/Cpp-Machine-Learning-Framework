@@ -1,7 +1,7 @@
-# include "libraries.h"
-# include "ArrayList.h"
-# include "single_linear_regression.h"
-#include "multiple_linear_regression.h"
+#include "Libraries.h"
+#include "ArrayList.h"
+#include "SimpleLinearRegression.h"
+#include "MultipleLinearRegression.h"
 
 typedef vector<vector<long double>> m;
 
@@ -38,7 +38,7 @@ int main() {
 
 
     Matrix m1(x);
-    multiple_linear_regressor mlr(x, y);
-    mlr.ridge_train(0.001);
+    MultipleLinearRegression mlr(x, y);
+    mlr.ridgeTrain(0.001);
     return 0;
 }
