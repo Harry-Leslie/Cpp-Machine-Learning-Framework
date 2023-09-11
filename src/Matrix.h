@@ -1,5 +1,5 @@
 #pragma once
-# include "libraries.h"
+# include "Libraries.h"
 
 typedef vector<vector<long double>> m;
 /* Matrix Wrapper Class Interface
@@ -38,8 +38,5 @@ public:
 	void multiple_by_constant(long double v);
 
 	Matrix get_idenity();
-
-
-
 
 };
